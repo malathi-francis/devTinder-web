@@ -4,6 +4,7 @@ import { BASE_URL } from '../utils/Constants';
 import { useDispatch } from 'react-redux';
 import {addRequests,} from '../utils/requestSlice';
 import { useSelector } from 'react-redux';
+import {removeRequest} from '../utils/requestSlice';
    
 
 const Requests = () => {
